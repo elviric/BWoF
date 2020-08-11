@@ -2,11 +2,11 @@ const ethers = require('ethers');
 //console.log(ethers);
 // Your code here...
 
-const pvtK = '0xddac784931b900196aa7d4150c9912f9dab8b7129e7b159ce82e66540996aed2';
+const pvtK = 'PVT_KEY';
 // Your code here...
 const provider = ethers.getDefaultProvider('rinkeby', {
     
-    alchemy: 'xZuTf24GhCZG2-OUqHABCMoKfu0TgqYV'
+    alchemy: '<API KEY>'
 });
 console.log();
 const signer = new ethers.Wallet(pvtK,provider);
